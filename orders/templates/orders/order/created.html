@@ -1,0 +1,13 @@
+{% extends 'shop/base.html' %}
+
+{% block title %}
+  Compra realizada
+{% endblock %}
+
+{% block content %}
+<div class="row">
+  <h1>Compra realizada con exito</h1>
+
+  <p>Tu orden se ha registrado con exito. El número de tu pedido es: <strong>{{ order.id }}</strong></p>
+</div>  
+{% endblock %}
